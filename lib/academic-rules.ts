@@ -1,0 +1,17 @@
+export const DEFAULT_ACADEMIC_RULES = {
+  passMarkPercent: 50,
+  attendanceMinimumPercent: 70,
+  assignmentWeightPercent: 30,
+  quizWeightPercent: 20,
+  examWeightPercent: 50,
+  examAttemptsAllowed: 3,
+  activationPaymentPercent: 60,
+  examPaymentClearancePercent: 100,
+  allowsCourseRepeat: true,
+  academicTeamDecidesResit: true,
+  certificateMaxMonths: 2,
+  minimumEducation: "Secondary education / Uganda S4 equivalent",
+  requiresIdentityDocument: true,
+  requiresEducationDocument: true,
+  applicationFeeUgx: 10_000,
+};
